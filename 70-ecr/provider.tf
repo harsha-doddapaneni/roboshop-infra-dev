@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "81s-remot-stat-dev"
-    key    = "expense-ecr"
+    key    = "roboshop-ecr"
     region = "us-east-1"
     dynamodb_table = "81s-locking-dev"
   }
